@@ -11,6 +11,6 @@ jobs:
     name: Update PR Labels
     steps:
       - name: Update Labels
-        uses: danilo-delbusso/pr-review-labeller@v1.1.0
+        uses: danilo-delbusso/pr-review-labeller@v1.1.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
